@@ -11,6 +11,7 @@
 		A88DE87A23C442D600212B61 /* KakaoCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A88DE87823C442D500212B61 /* KakaoCommon.framework */; };
 		A88DE87B23C442D600212B61 /* KakaoOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A88DE87923C442D600212B61 /* KakaoOpenSDK.framework */; };
 		A88DE87E23C44A2100212B61 /* DataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88DE87D23C44A2100212B61 /* DataStructures.swift */; };
+		A88DE88223C461DA00212B61 /* FUIKakaoAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88DE88123C461DA00212B61 /* FUIKakaoAuth.swift */; };
 		A8A3512023BEFD4500EBF5A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A3511F23BEFD4500EBF5A5 /* AppDelegate.swift */; };
 		A8A3512223BEFD4500EBF5A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A3512123BEFD4500EBF5A5 /* SceneDelegate.swift */; };
 		A8A3512423BEFD4500EBF5A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A3512323BEFD4500EBF5A5 /* ViewController.swift */; };
@@ -33,6 +34,7 @@
 		A88DE87923C442D600212B61 /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoOpenSDK.framework; sourceTree = "<group>"; };
 		A88DE87C23C442EA00212B61 /* KakaoOpenSDK-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KakaoOpenSDK-Bridging-Header.h"; sourceTree = "<group>"; };
 		A88DE87D23C44A2100212B61 /* DataStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructures.swift; sourceTree = "<group>"; };
+		A88DE88123C461DA00212B61 /* FUIKakaoAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUIKakaoAuth.swift; sourceTree = "<group>"; };
 		A8A3511C23BEFD4500EBF5A5 /* SeoulSportsCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeoulSportsCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8A3511F23BEFD4500EBF5A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8A3512123BEFD4500EBF5A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				A8A3513D23BF12DD00EBF5A5 /* mypageViewController.swift */,
 				A8A3515F23BF2E0B00EBF5A5 /* subViewController.swift */,
 				A88DE87D23C44A2100212B61 /* DataStructures.swift */,
+				A88DE88123C461DA00212B61 /* FUIKakaoAuth.swift */,
 			);
 			path = SeoulSportsCenter;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				A88DE87E23C44A2100212B61 /* DataStructures.swift in Sources */,
 				A8A3516023BF2E0B00EBF5A5 /* subViewController.swift in Sources */,
 				A8A3512423BEFD4500EBF5A5 /* ViewController.swift in Sources */,
+				A88DE88223C461DA00212B61 /* FUIKakaoAuth.swift in Sources */,
 				A8A3513A23BF051000EBF5A5 /* User.swift in Sources */,
 				A8A3512023BEFD4500EBF5A5 /* AppDelegate.swift in Sources */,
 				A8A3513C23BF12BA00EBF5A5 /* mapViewController.swift in Sources */,
