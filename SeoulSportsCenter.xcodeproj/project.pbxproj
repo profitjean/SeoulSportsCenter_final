@@ -3,19 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28C4422D8DB638CB67C661B4 /* Pods_SeoulSportsCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF323D92C60E3C008F9B0F0D /* Pods_SeoulSportsCenter.framework */; };
+		A88DE87A23C442D600212B61 /* KakaoCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A88DE87823C442D500212B61 /* KakaoCommon.framework */; };
+		A88DE87B23C442D600212B61 /* KakaoOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A88DE87923C442D600212B61 /* KakaoOpenSDK.framework */; };
+		A88DE87E23C44A2100212B61 /* DataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88DE87D23C44A2100212B61 /* DataStructures.swift */; };
 		A8A3512023BEFD4500EBF5A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A3511F23BEFD4500EBF5A5 /* AppDelegate.swift */; };
 		A8A3512223BEFD4500EBF5A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A3512123BEFD4500EBF5A5 /* SceneDelegate.swift */; };
 		A8A3512423BEFD4500EBF5A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A3512323BEFD4500EBF5A5 /* ViewController.swift */; };
 		A8A3512723BEFD4500EBF5A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8A3512523BEFD4500EBF5A5 /* Main.storyboard */; };
 		A8A3512923BEFD4500EBF5A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8A3512823BEFD4500EBF5A5 /* Assets.xcassets */; };
 		A8A3512C23BEFD4500EBF5A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8A3512A23BEFD4500EBF5A5 /* LaunchScreen.storyboard */; };
+		A8A3513423BF000000EBF5A5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8A3513323BF000000EBF5A5 /* GoogleService-Info.plist */; };
+		A8A3513623BF012500EBF5A5 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A3513523BF012500EBF5A5 /* mainViewController.swift */; };
+		A8A3513823BF015D00EBF5A5 /* CustomAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A3513723BF015D00EBF5A5 /* CustomAuthViewController.swift */; };
+		A8A3513A23BF051000EBF5A5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A3513923BF051000EBF5A5 /* User.swift */; };
+		A8A3513C23BF12BA00EBF5A5 /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A3513B23BF12BA00EBF5A5 /* mapViewController.swift */; };
+		A8A3513E23BF12DD00EBF5A5 /* mypageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A3513D23BF12DD00EBF5A5 /* mypageViewController.swift */; };
+		A8A3516023BF2E0B00EBF5A5 /* subViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A3515F23BF2E0B00EBF5A5 /* subViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D82C2025BDA0AB778A5BEF0 /* Pods-SeoulSportsCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeoulSportsCenter.debug.xcconfig"; path = "Target Support Files/Pods-SeoulSportsCenter/Pods-SeoulSportsCenter.debug.xcconfig"; sourceTree = "<group>"; };
+		A0C5E788225B7A7295E5FC84 /* Pods-SeoulSportsCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeoulSportsCenter.release.xcconfig"; path = "Target Support Files/Pods-SeoulSportsCenter/Pods-SeoulSportsCenter.release.xcconfig"; sourceTree = "<group>"; };
+		A88DE87823C442D500212B61 /* KakaoCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoCommon.framework; sourceTree = "<group>"; };
+		A88DE87923C442D600212B61 /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoOpenSDK.framework; sourceTree = "<group>"; };
+		A88DE87C23C442EA00212B61 /* KakaoOpenSDK-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KakaoOpenSDK-Bridging-Header.h"; sourceTree = "<group>"; };
+		A88DE87D23C44A2100212B61 /* DataStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructures.swift; sourceTree = "<group>"; };
 		A8A3511C23BEFD4500EBF5A5 /* SeoulSportsCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeoulSportsCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8A3511F23BEFD4500EBF5A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8A3512123BEFD4500EBF5A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +41,14 @@
 		A8A3512823BEFD4500EBF5A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8A3512B23BEFD4500EBF5A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8A3512D23BEFD4500EBF5A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8A3513323BF000000EBF5A5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A8A3513523BF012500EBF5A5 /* mainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
+		A8A3513723BF015D00EBF5A5 /* CustomAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAuthViewController.swift; sourceTree = "<group>"; };
+		A8A3513923BF051000EBF5A5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A8A3513B23BF12BA00EBF5A5 /* mapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
+		A8A3513D23BF12DD00EBF5A5 /* mypageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mypageViewController.swift; sourceTree = "<group>"; };
+		A8A3515F23BF2E0B00EBF5A5 /* subViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subViewController.swift; sourceTree = "<group>"; };
+		FF323D92C60E3C008F9B0F0D /* Pods_SeoulSportsCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeoulSportsCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +56,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28C4422D8DB638CB67C661B4 /* Pods_SeoulSportsCenter.framework in Frameworks */,
+				A88DE87A23C442D600212B61 /* KakaoCommon.framework in Frameworks */,
+				A88DE87B23C442D600212B61 /* KakaoOpenSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6936E6BD9CE9A5C76C9D683D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D82C2025BDA0AB778A5BEF0 /* Pods-SeoulSportsCenter.debug.xcconfig */,
+				A0C5E788225B7A7295E5FC84 /* Pods-SeoulSportsCenter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A8A3511323BEFD4500EBF5A5 = {
 			isa = PBXGroup;
 			children = (
 				A8A3511E23BEFD4500EBF5A5 /* SeoulSportsCenter */,
 				A8A3511D23BEFD4500EBF5A5 /* Products */,
+				6936E6BD9CE9A5C76C9D683D /* Pods */,
+				A9AFD870D7837A19658CFF85 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +95,8 @@
 		A8A3511E23BEFD4500EBF5A5 /* SeoulSportsCenter */ = {
 			isa = PBXGroup;
 			children = (
+				A8A3513323BF000000EBF5A5 /* GoogleService-Info.plist */,
+				A88DE87C23C442EA00212B61 /* KakaoOpenSDK-Bridging-Header.h */,
 				A8A3511F23BEFD4500EBF5A5 /* AppDelegate.swift */,
 				A8A3512123BEFD4500EBF5A5 /* SceneDelegate.swift */,
 				A8A3512323BEFD4500EBF5A5 /* ViewController.swift */,
@@ -63,8 +104,25 @@
 				A8A3512823BEFD4500EBF5A5 /* Assets.xcassets */,
 				A8A3512A23BEFD4500EBF5A5 /* LaunchScreen.storyboard */,
 				A8A3512D23BEFD4500EBF5A5 /* Info.plist */,
+				A8A3513523BF012500EBF5A5 /* mainViewController.swift */,
+				A8A3513723BF015D00EBF5A5 /* CustomAuthViewController.swift */,
+				A8A3513923BF051000EBF5A5 /* User.swift */,
+				A8A3513B23BF12BA00EBF5A5 /* mapViewController.swift */,
+				A8A3513D23BF12DD00EBF5A5 /* mypageViewController.swift */,
+				A8A3515F23BF2E0B00EBF5A5 /* subViewController.swift */,
+				A88DE87D23C44A2100212B61 /* DataStructures.swift */,
 			);
 			path = SeoulSportsCenter;
+			sourceTree = "<group>";
+		};
+		A9AFD870D7837A19658CFF85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A88DE87823C442D500212B61 /* KakaoCommon.framework */,
+				A88DE87923C442D600212B61 /* KakaoOpenSDK.framework */,
+				FF323D92C60E3C008F9B0F0D /* Pods_SeoulSportsCenter.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +132,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8A3513023BEFD4500EBF5A5 /* Build configuration list for PBXNativeTarget "SeoulSportsCenter" */;
 			buildPhases = (
+				0C55C4C898C64AA8CC6FD787 /* [CP] Check Pods Manifest.lock */,
 				A8A3511823BEFD4500EBF5A5 /* Sources */,
 				A8A3511923BEFD4500EBF5A5 /* Frameworks */,
 				A8A3511A23BEFD4500EBF5A5 /* Resources */,
+				5117AA8414071F643D1DD394 /* [CP] Embed Pods Frameworks */,
+				1F776018F71D8C4F5B0EBA81 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8A3512C23BEFD4500EBF5A5 /* LaunchScreen.storyboard in Resources */,
+				A8A3513423BF000000EBF5A5 /* GoogleService-Info.plist in Resources */,
 				A8A3512923BEFD4500EBF5A5 /* Assets.xcassets in Resources */,
 				A8A3512723BEFD4500EBF5A5 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +195,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C55C4C898C64AA8CC6FD787 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeoulSportsCenter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F776018F71D8C4F5B0EBA81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeoulSportsCenter/Pods-SeoulSportsCenter-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeoulSportsCenter/Pods-SeoulSportsCenter-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SeoulSportsCenter/Pods-SeoulSportsCenter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5117AA8414071F643D1DD394 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeoulSportsCenter/Pods-SeoulSportsCenter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeoulSportsCenter/Pods-SeoulSportsCenter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SeoulSportsCenter/Pods-SeoulSportsCenter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A8A3511823BEFD4500EBF5A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8A3513823BF015D00EBF5A5 /* CustomAuthViewController.swift in Sources */,
+				A88DE87E23C44A2100212B61 /* DataStructures.swift in Sources */,
+				A8A3516023BF2E0B00EBF5A5 /* subViewController.swift in Sources */,
 				A8A3512423BEFD4500EBF5A5 /* ViewController.swift in Sources */,
+				A8A3513A23BF051000EBF5A5 /* User.swift in Sources */,
 				A8A3512023BEFD4500EBF5A5 /* AppDelegate.swift in Sources */,
+				A8A3513C23BF12BA00EBF5A5 /* mapViewController.swift in Sources */,
 				A8A3512223BEFD4500EBF5A5 /* SceneDelegate.swift in Sources */,
+				A8A3513623BF012500EBF5A5 /* mainViewController.swift in Sources */,
+				A8A3513E23BF12DD00EBF5A5 /* mypageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,9 +410,14 @@
 		};
 		A8A3513123BEFD4500EBF5A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D82C2025BDA0AB778A5BEF0 /* Pods-SeoulSportsCenter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SeoulSportsCenter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,9 +432,14 @@
 		};
 		A8A3513223BEFD4500EBF5A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0C5E788225B7A7295E5FC84 /* Pods-SeoulSportsCenter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SeoulSportsCenter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
