@@ -7,19 +7,25 @@
 //
 
 import UIKit
+import GoogleMaps
 import Firebase
 import CoreLocation
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate{
+class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate {
     
-    var locationMgr:CLLocationManager!
-
+    var locationMgr:CLLocationManager! // 현위치 받아오기
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FirebaseApp.configure()
+        // 현재 위치 받아오기
+        // 위치 정보 수집 동의하기
         locationMgr = CLLocationManager()
         locationMgr.requestAlwaysAuthorization()
+        
+        GMSServices.provideAPIKey("AIzaSyDS2ZOxzAjNC99MG9HDVKzsPdv0_43Uk4c") // ios api key
+        
         return true
     }
     

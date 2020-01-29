@@ -20,6 +20,13 @@ class ViewController: UIViewController, FUIAuthDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let width = UIScreen.main.bounds.size.width
+        let height = UIScreen.main.bounds.size.height
+        
+        let backgroundImageView = UIImageView(frame: CGRect(x:0, y: 0, width: width, height: height))
+        backgroundImageView.image = UIImage(named: "backGround")
+        backgroundImageView.contentMode = .scaleAspectFill
+        
         //카카오 로그인
         NotificationCenter.default.addObserver(self, selector: #selector(kakaoSessionChange), name: NSNotification.Name.KOSessionDidChange, object: nil)
     }
@@ -36,9 +43,8 @@ class ViewController: UIViewController, FUIAuthDelegate {
                 if let user = user_me, let user_id = user.id {
                     NSLog("\(user.id!)")
                     let login_info = TokenInfo(uid : user_id)
+                    
                     AF.request(self.token_url, method:.post, parameters: login_info, encoder: URLEncodedFormParameterEncoder(destination: .httpBody)).responseJSON{(response) in
-                    //debugPrint(response)
-                    //debugPrint(response.data)
                         do {
                             //functions를 이용해 받아온 토큰 파싱
                             let token_data = try JSONDecoder().decode(JWT.self, from: response.data!)
@@ -90,11 +96,11 @@ class ViewController: UIViewController, FUIAuthDelegate {
         else {
             let providers:[FUIAuthProvider] = [
                 FUIGoogleAuth()
+                ,FUIKakaoAuth()
             ]
             self.authUI!.providers = providers
             self.authUI!.delegate = self
             
-            //let authViewController = self.authUI!.authViewController()
             let authViewController = customViewController(authUI: self.authUI!)
             
             authViewController.modalPresentationStyle = .fullScreen
@@ -102,7 +108,7 @@ class ViewController: UIViewController, FUIAuthDelegate {
             self.present(authViewController, animated: true, completion: nil)
         }
     }
-    
+
     //로그인 후 파이어 베이스
     func authUI(_ authUI: FUIAuth, didSignInWith authDataResult: AuthDataResult?, error: Error?) {
         NSLog("login complete")
@@ -124,12 +130,12 @@ class ViewController: UIViewController, FUIAuthDelegate {
                         dump(user)
                     } catch let error {
                         NSLog(error.localizedDescription)
-                        NSLog("추가 정보 입력 필요")
-                        
-                        let user = User(name: "text", email: "test@test.com")
-            
+                        // NSLog("추가 정보 입력 필요")
+                        /*
+                        let user = User(name: "이름", email: "이메일")
                         let data = try! FirebaseEncoder().encode(user)
                         ref.child("users").child(user_id).setValue(data)
+                        */
                     }
                    
                 }
@@ -139,24 +145,4 @@ class ViewController: UIViewController, FUIAuthDelegate {
         }
     }
     
-    //카카오 로그인
-    @IBAction func KakaoLogin(_ sender: Any) {
-        guard let session = KOSession.shared() else { //session -> 로그인 관리
-            return
-        }
-        
-        if session.isOpen() {
-            session.close()
-        }
-        
-        session.open(completionHandler: {
-            (error) -> Void in
-            if !session.isOpen() {
-                dump(error?.localizedDescription)
-            }
-        })
-    }
-    
-    
 }
-

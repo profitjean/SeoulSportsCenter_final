@@ -17,6 +17,15 @@ target 'SeoulSportsCenter' do
 	pod 'Alamofire', '~> 5.0.0-rc.3'
 	pod 'CodableFirebase'
 
+	pod 'NMapsMap'
+	pod 'GoogleMaps'
+	pod 'GooglePlaces'
+	pod 'Firebase/Storage'
+	pod 'Kingfisher', '~> 5.0'
+
+	pod 'PageControls/SnakePageControl'
+
+	pod 'Eureka'
   # Pods for SeoulSportsCenter
 
 end

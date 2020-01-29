@@ -3,11 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		28C4422D8DB638CB67C661B4 /* Pods_SeoulSportsCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF323D92C60E3C008F9B0F0D /* Pods_SeoulSportsCenter.framework */; };
+		92048DCC23CD8703007D98D0 /* ProgramDataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92048DCB23CD8703007D98D0 /* ProgramDataStructures.swift */; };
+		92048DCE23CDA3A1007D98D0 /* MyPageModiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92048DCD23CDA3A1007D98D0 /* MyPageModiViewController.swift */; };
+		92127DF323D04BB200FA46F9 /* XMLParsing in Frameworks */ = {isa = PBXBuildFile; productRef = 92127DF223D04BB200FA46F9 /* XMLParsing */; };
+		92127DF523D04CAE00FA46F9 /* SearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92127DF423D04CAE00FA46F9 /* SearchBarViewController.swift */; };
+		92127DF723D04E2500FA46F9 /* SportsStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92127DF623D04E2500FA46F9 /* SportsStructures.swift */; };
+		92127DF923D04F4500FA46F9 /* SearchDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92127DF823D04F4500FA46F9 /* SearchDetailViewController.swift */; };
+		9246194123CEED4900AC7CCF /* MapViewcController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9246194023CEED4900AC7CCF /* MapViewcController.swift */; };
+		92CB168623CDF4140092416D /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CB168523CDF4140092416D /* MyPageViewController.swift */; };
 		A88DE87A23C442D600212B61 /* KakaoCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A88DE87823C442D500212B61 /* KakaoCommon.framework */; };
 		A88DE87B23C442D600212B61 /* KakaoOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A88DE87923C442D600212B61 /* KakaoOpenSDK.framework */; };
 		A88DE87E23C44A2100212B61 /* DataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88DE87D23C44A2100212B61 /* DataStructures.swift */; };
@@ -15,20 +23,36 @@
 		A8A3512023BEFD4500EBF5A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A3511F23BEFD4500EBF5A5 /* AppDelegate.swift */; };
 		A8A3512223BEFD4500EBF5A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A3512123BEFD4500EBF5A5 /* SceneDelegate.swift */; };
 		A8A3512423BEFD4500EBF5A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A3512323BEFD4500EBF5A5 /* ViewController.swift */; };
-		A8A3512723BEFD4500EBF5A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8A3512523BEFD4500EBF5A5 /* Main.storyboard */; };
 		A8A3512923BEFD4500EBF5A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8A3512823BEFD4500EBF5A5 /* Assets.xcassets */; };
 		A8A3512C23BEFD4500EBF5A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8A3512A23BEFD4500EBF5A5 /* LaunchScreen.storyboard */; };
 		A8A3513423BF000000EBF5A5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8A3513323BF000000EBF5A5 /* GoogleService-Info.plist */; };
 		A8A3513623BF012500EBF5A5 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A3513523BF012500EBF5A5 /* mainViewController.swift */; };
 		A8A3513823BF015D00EBF5A5 /* CustomAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A3513723BF015D00EBF5A5 /* CustomAuthViewController.swift */; };
-		A8A3513A23BF051000EBF5A5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A3513923BF051000EBF5A5 /* User.swift */; };
-		A8A3513C23BF12BA00EBF5A5 /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A3513B23BF12BA00EBF5A5 /* mapViewController.swift */; };
-		A8A3513E23BF12DD00EBF5A5 /* mypageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A3513D23BF12DD00EBF5A5 /* mypageViewController.swift */; };
-		A8A3516023BF2E0B00EBF5A5 /* subViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A3515F23BF2E0B00EBF5A5 /* subViewController.swift */; };
+		A8A3513A23BF051000EBF5A5 /* UserDataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A3513923BF051000EBF5A5 /* UserDataStructures.swift */; };
+		A8BEC33823C8437A001CB6AA /* MyProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BEC33723C8437A001CB6AA /* MyProgramViewController.swift */; };
+		A8BEC33E23C84472001CB6AA /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BEC33C23C84472001CB6AA /* ImagePickerController.swift */; };
+		A8BEC33F23C84472001CB6AA /* ImageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BEC33D23C84472001CB6AA /* ImageRow.swift */; };
+		A8C7D94F23C6F03800070AB7 /* LocationSingleTon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C7D94E23C6F03800070AB7 /* LocationSingleTon.swift */; };
+		B8637F4423D5682C00A30250 /* IntroPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8637F4323D5682C00A30250 /* IntroPageViewController.swift */; };
+		B8637F4623D5684100A30250 /* SubIntroPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8637F4523D5684100A30250 /* SubIntroPageViewController.swift */; };
+		B8637F4823D572AA00A30250 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8637F4723D572AA00A30250 /* Main.storyboard */; };
+		B88615A423D4A04200EE62CE /* MyProgramTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88615A323D4A04200EE62CE /* MyProgramTableViewController.swift */; };
+		F26F55DE23C6E01F0057E08A /* GymListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26F55DD23C6E01F0057E08A /* GymListViewController.swift */; };
+		F26F55E023C6E0840057E08A /* ProgramListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26F55DF23C6E0840057E08A /* ProgramListViewController.swift */; };
+		F2880ADD23D4182400B5EA3F /* EventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2880ADC23D4182400B5EA3F /* EventList.swift */; };
+		F2CA2BDD23D2EB9E0096EE06 /* MapSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CA2BDC23D2EB9E0096EE06 /* MapSearchViewController.swift */; };
+		F2CA2BDF23D2EF410096EE06 /* MapDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CA2BDE23D2EF410096EE06 /* MapDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7D82C2025BDA0AB778A5BEF0 /* Pods-SeoulSportsCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeoulSportsCenter.debug.xcconfig"; path = "Target Support Files/Pods-SeoulSportsCenter/Pods-SeoulSportsCenter.debug.xcconfig"; sourceTree = "<group>"; };
+		92048DCB23CD8703007D98D0 /* ProgramDataStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramDataStructures.swift; sourceTree = "<group>"; };
+		92048DCD23CDA3A1007D98D0 /* MyPageModiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageModiViewController.swift; sourceTree = "<group>"; };
+		92127DF423D04CAE00FA46F9 /* SearchBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarViewController.swift; sourceTree = "<group>"; };
+		92127DF623D04E2500FA46F9 /* SportsStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsStructures.swift; sourceTree = "<group>"; };
+		92127DF823D04F4500FA46F9 /* SearchDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDetailViewController.swift; sourceTree = "<group>"; };
+		9246194023CEED4900AC7CCF /* MapViewcController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewcController.swift; sourceTree = "<group>"; };
+		92CB168523CDF4140092416D /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 		A0C5E788225B7A7295E5FC84 /* Pods-SeoulSportsCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeoulSportsCenter.release.xcconfig"; path = "Target Support Files/Pods-SeoulSportsCenter/Pods-SeoulSportsCenter.release.xcconfig"; sourceTree = "<group>"; };
 		A88DE87823C442D500212B61 /* KakaoCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoCommon.framework; sourceTree = "<group>"; };
 		A88DE87923C442D600212B61 /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoOpenSDK.framework; sourceTree = "<group>"; };
@@ -39,17 +63,26 @@
 		A8A3511F23BEFD4500EBF5A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8A3512123BEFD4500EBF5A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A8A3512323BEFD4500EBF5A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A8A3512623BEFD4500EBF5A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8A3512823BEFD4500EBF5A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8A3512B23BEFD4500EBF5A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8A3512D23BEFD4500EBF5A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8A3513323BF000000EBF5A5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A8A3513523BF012500EBF5A5 /* mainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
 		A8A3513723BF015D00EBF5A5 /* CustomAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAuthViewController.swift; sourceTree = "<group>"; };
-		A8A3513923BF051000EBF5A5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		A8A3513B23BF12BA00EBF5A5 /* mapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
-		A8A3513D23BF12DD00EBF5A5 /* mypageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mypageViewController.swift; sourceTree = "<group>"; };
-		A8A3515F23BF2E0B00EBF5A5 /* subViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subViewController.swift; sourceTree = "<group>"; };
+		A8A3513923BF051000EBF5A5 /* UserDataStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataStructures.swift; sourceTree = "<group>"; };
+		A8BEC33723C8437A001CB6AA /* MyProgramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProgramViewController.swift; sourceTree = "<group>"; };
+		A8BEC33C23C84472001CB6AA /* ImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
+		A8BEC33D23C84472001CB6AA /* ImageRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageRow.swift; sourceTree = "<group>"; };
+		A8C7D94E23C6F03800070AB7 /* LocationSingleTon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSingleTon.swift; sourceTree = "<group>"; };
+		B8637F4323D5682C00A30250 /* IntroPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroPageViewController.swift; sourceTree = "<group>"; };
+		B8637F4523D5684100A30250 /* SubIntroPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubIntroPageViewController.swift; sourceTree = "<group>"; };
+		B8637F4723D572AA00A30250 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B88615A323D4A04200EE62CE /* MyProgramTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProgramTableViewController.swift; sourceTree = "<group>"; };
+		F26F55DD23C6E01F0057E08A /* GymListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymListViewController.swift; sourceTree = "<group>"; };
+		F26F55DF23C6E0840057E08A /* ProgramListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramListViewController.swift; sourceTree = "<group>"; };
+		F2880ADC23D4182400B5EA3F /* EventList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventList.swift; sourceTree = "<group>"; };
+		F2CA2BDC23D2EB9E0096EE06 /* MapSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSearchViewController.swift; sourceTree = "<group>"; };
+		F2CA2BDE23D2EF410096EE06 /* MapDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDetailViewController.swift; sourceTree = "<group>"; };
 		FF323D92C60E3C008F9B0F0D /* Pods_SeoulSportsCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeoulSportsCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -61,6 +94,7 @@
 				28C4422D8DB638CB67C661B4 /* Pods_SeoulSportsCenter.framework in Frameworks */,
 				A88DE87A23C442D600212B61 /* KakaoCommon.framework in Frameworks */,
 				A88DE87B23C442D600212B61 /* KakaoOpenSDK.framework in Frameworks */,
+				92127DF323D04BB200FA46F9 /* XMLParsing in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,25 +131,56 @@
 		A8A3511E23BEFD4500EBF5A5 /* SeoulSportsCenter */ = {
 			isa = PBXGroup;
 			children = (
+				B8637F4223D5681800A30250 /* IntroPage */,
+				F2CA2BDB23D2E2830096EE06 /* Data */,
+				F2CA2BDA23D2E1EA0096EE06 /* MyPage */,
+				A8BEC33A23C84461001CB6AA /* Image */,
+				A8BEC33923C84386001CB6AA /* MainPage */,
 				A8A3513323BF000000EBF5A5 /* GoogleService-Info.plist */,
 				A88DE87C23C442EA00212B61 /* KakaoOpenSDK-Bridging-Header.h */,
 				A8A3511F23BEFD4500EBF5A5 /* AppDelegate.swift */,
 				A8A3512123BEFD4500EBF5A5 /* SceneDelegate.swift */,
 				A8A3512323BEFD4500EBF5A5 /* ViewController.swift */,
-				A8A3512523BEFD4500EBF5A5 /* Main.storyboard */,
-				A8A3512823BEFD4500EBF5A5 /* Assets.xcassets */,
-				A8A3512A23BEFD4500EBF5A5 /* LaunchScreen.storyboard */,
-				A8A3512D23BEFD4500EBF5A5 /* Info.plist */,
-				A8A3513523BF012500EBF5A5 /* mainViewController.swift */,
-				A8A3513723BF015D00EBF5A5 /* CustomAuthViewController.swift */,
-				A8A3513923BF051000EBF5A5 /* User.swift */,
-				A8A3513B23BF12BA00EBF5A5 /* mapViewController.swift */,
-				A8A3513D23BF12DD00EBF5A5 /* mypageViewController.swift */,
-				A8A3515F23BF2E0B00EBF5A5 /* subViewController.swift */,
-				A88DE87D23C44A2100212B61 /* DataStructures.swift */,
 				A88DE88123C461DA00212B61 /* FUIKakaoAuth.swift */,
+				A8A3513723BF015D00EBF5A5 /* CustomAuthViewController.swift */,
+				B8637F4723D572AA00A30250 /* Main.storyboard */,
+				A8A3512A23BEFD4500EBF5A5 /* LaunchScreen.storyboard */,
+				A8A3512823BEFD4500EBF5A5 /* Assets.xcassets */,
+				A8A3512D23BEFD4500EBF5A5 /* Info.plist */,
+				F2CA2BDC23D2EB9E0096EE06 /* MapSearchViewController.swift */,
+				9246194023CEED4900AC7CCF /* MapViewcController.swift */,
+				F2CA2BDE23D2EF410096EE06 /* MapDetailViewController.swift */,
 			);
 			path = SeoulSportsCenter;
+			sourceTree = "<group>";
+		};
+		A8BEC33923C84386001CB6AA /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				F26F55DF23C6E0840057E08A /* ProgramListViewController.swift */,
+				F26F55DD23C6E01F0057E08A /* GymListViewController.swift */,
+				A8A3513523BF012500EBF5A5 /* mainViewController.swift */,
+				92127DF423D04CAE00FA46F9 /* SearchBarViewController.swift */,
+				92127DF823D04F4500FA46F9 /* SearchDetailViewController.swift */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+		A8BEC33A23C84461001CB6AA /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				A8BEC33B23C84472001CB6AA /* ImageRow */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		A8BEC33B23C84472001CB6AA /* ImageRow */ = {
+			isa = PBXGroup;
+			children = (
+				A8BEC33C23C84472001CB6AA /* ImagePickerController.swift */,
+				A8BEC33D23C84472001CB6AA /* ImageRow.swift */,
+			);
+			path = ImageRow;
 			sourceTree = "<group>";
 		};
 		A9AFD870D7837A19658CFF85 /* Frameworks */ = {
@@ -126,6 +191,39 @@
 				FF323D92C60E3C008F9B0F0D /* Pods_SeoulSportsCenter.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8637F4223D5681800A30250 /* IntroPage */ = {
+			isa = PBXGroup;
+			children = (
+				B8637F4323D5682C00A30250 /* IntroPageViewController.swift */,
+				B8637F4523D5684100A30250 /* SubIntroPageViewController.swift */,
+			);
+			path = IntroPage;
+			sourceTree = "<group>";
+		};
+		F2CA2BDA23D2E1EA0096EE06 /* MyPage */ = {
+			isa = PBXGroup;
+			children = (
+				92048DCD23CDA3A1007D98D0 /* MyPageModiViewController.swift */,
+				92CB168523CDF4140092416D /* MyPageViewController.swift */,
+				A8BEC33723C8437A001CB6AA /* MyProgramViewController.swift */,
+				B88615A323D4A04200EE62CE /* MyProgramTableViewController.swift */,
+			);
+			path = MyPage;
+			sourceTree = "<group>";
+		};
+		F2CA2BDB23D2E2830096EE06 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A88DE87D23C44A2100212B61 /* DataStructures.swift */,
+				A8A3513923BF051000EBF5A5 /* UserDataStructures.swift */,
+				A8C7D94E23C6F03800070AB7 /* LocationSingleTon.swift */,
+				92048DCB23CD8703007D98D0 /* ProgramDataStructures.swift */,
+				92127DF623D04E2500FA46F9 /* SportsStructures.swift */,
+				F2880ADC23D4182400B5EA3F /* EventList.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +245,9 @@
 			dependencies = (
 			);
 			name = SeoulSportsCenter;
+			packageProductDependencies = (
+				92127DF223D04BB200FA46F9 /* XMLParsing */,
+			);
 			productName = SeoulSportsCenter;
 			productReference = A8A3511C23BEFD4500EBF5A5 /* SeoulSportsCenter.app */;
 			productType = "com.apple.product-type.application";
@@ -175,6 +276,9 @@
 				Base,
 			);
 			mainGroup = A8A3511323BEFD4500EBF5A5;
+			packageReferences = (
+				92127DF123D04BB200FA46F9 /* XCRemoteSwiftPackageReference "XMLParsing" */,
+			);
 			productRefGroup = A8A3511D23BEFD4500EBF5A5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -192,7 +296,7 @@
 				A8A3512C23BEFD4500EBF5A5 /* LaunchScreen.storyboard in Resources */,
 				A8A3513423BF000000EBF5A5 /* GoogleService-Info.plist in Resources */,
 				A8A3512923BEFD4500EBF5A5 /* Assets.xcassets in Resources */,
-				A8A3512723BEFD4500EBF5A5 /* Main.storyboard in Resources */,
+				B8637F4823D572AA00A30250 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,30 +367,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8A3513823BF015D00EBF5A5 /* CustomAuthViewController.swift in Sources */,
+				92048DCC23CD8703007D98D0 /* ProgramDataStructures.swift in Sources */,
 				A88DE87E23C44A2100212B61 /* DataStructures.swift in Sources */,
-				A8A3516023BF2E0B00EBF5A5 /* subViewController.swift in Sources */,
 				A8A3512423BEFD4500EBF5A5 /* ViewController.swift in Sources */,
 				A88DE88223C461DA00212B61 /* FUIKakaoAuth.swift in Sources */,
-				A8A3513A23BF051000EBF5A5 /* User.swift in Sources */,
+				A8A3513A23BF051000EBF5A5 /* UserDataStructures.swift in Sources */,
+				92127DF523D04CAE00FA46F9 /* SearchBarViewController.swift in Sources */,
+				F2CA2BDD23D2EB9E0096EE06 /* MapSearchViewController.swift in Sources */,
+				F2CA2BDF23D2EF410096EE06 /* MapDetailViewController.swift in Sources */,
+				92127DF723D04E2500FA46F9 /* SportsStructures.swift in Sources */,
 				A8A3512023BEFD4500EBF5A5 /* AppDelegate.swift in Sources */,
-				A8A3513C23BF12BA00EBF5A5 /* mapViewController.swift in Sources */,
+				A8BEC33823C8437A001CB6AA /* MyProgramViewController.swift in Sources */,
+				B88615A423D4A04200EE62CE /* MyProgramTableViewController.swift in Sources */,
+				92048DCE23CDA3A1007D98D0 /* MyPageModiViewController.swift in Sources */,
 				A8A3512223BEFD4500EBF5A5 /* SceneDelegate.swift in Sources */,
+				A8BEC33F23C84472001CB6AA /* ImageRow.swift in Sources */,
+				B8637F4423D5682C00A30250 /* IntroPageViewController.swift in Sources */,
+				92127DF923D04F4500FA46F9 /* SearchDetailViewController.swift in Sources */,
+				B8637F4623D5684100A30250 /* SubIntroPageViewController.swift in Sources */,
 				A8A3513623BF012500EBF5A5 /* mainViewController.swift in Sources */,
-				A8A3513E23BF12DD00EBF5A5 /* mypageViewController.swift in Sources */,
+				9246194123CEED4900AC7CCF /* MapViewcController.swift in Sources */,
+				92CB168623CDF4140092416D /* MyPageViewController.swift in Sources */,
+				F26F55DE23C6E01F0057E08A /* GymListViewController.swift in Sources */,
+				F26F55E023C6E0840057E08A /* ProgramListViewController.swift in Sources */,
+				A8BEC33E23C84472001CB6AA /* ImagePickerController.swift in Sources */,
+				F2880ADD23D4182400B5EA3F /* EventList.swift in Sources */,
+				A8C7D94F23C6F03800070AB7 /* LocationSingleTon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A8A3512523BEFD4500EBF5A5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A8A3512623BEFD4500EBF5A5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A8A3512A23BEFD4500EBF5A5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -478,6 +590,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		92127DF123D04BB200FA46F9 /* XCRemoteSwiftPackageReference "XMLParsing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ShawnMoore/XMLParsing.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		92127DF223D04BB200FA46F9 /* XMLParsing */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92127DF123D04BB200FA46F9 /* XCRemoteSwiftPackageReference "XMLParsing" */;
+			productName = XMLParsing;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A8A3511423BEFD4500EBF5A5 /* Project object */;
 }
